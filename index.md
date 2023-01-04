@@ -1,4 +1,5 @@
 ---
-Data Science Project: Credit Card Fraud
+# Data Science Project
+### Credit Card Fraud
 ---
 
