@@ -16,6 +16,16 @@ Data Science is becoming an increasingly popular field because of its numerous a
 
 In this blog, I will be utilizing the applications of data science concepts by investigating the impact of social and economic factors linked to students' dropout and academic successes in various undergraduate degrees. 
 
+### Problem Statement
+
+
+### Stakeholders
+
+
+### Data Collection Methods
+I will be using the dataset from Kaggle (source: Zenodo) to understand and predict student dropouts and academic outcomes. 
+
+
 
 <!--
   <<< Author notes: Start of the course >>>
