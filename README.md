@@ -9,6 +9,13 @@
 
 _STAT 399 Independent Project_
 
+Hello!
+Welcome to my blog! My name is Cathy and I am a third-year data science student at Northwestern University.
+
+Data Science is becoming an increasingly popular field because of its numerous applications across industries. Data Science can be used to solve real-world problems and my hope is that people interested in understanding how data science concepts are applied to solve a real-life problem will benefit from this blog.
+
+In this blog, I will be utilizing the applications of data science concepts by investigating the impact of social and economic factors linked to students' dropout and academic successes in various undergraduate degrees. 
+
 
 <!--
   <<< Author notes: Start of the course >>>
