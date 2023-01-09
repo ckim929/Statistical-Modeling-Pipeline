@@ -13,7 +13,8 @@ Hello!
 
 Welcome to my blog! My name is Cathy and I am a third-year data science student at Northwestern University.
 
-![Alt text](C:\Users\cathy\OneDrive\Documents\DSProj\nuphoto.jpg?raw=true "Title")
+
+<img src="C:\Users\cathy\OneDrive\Documents\DSProj\nuphoto.jpg" alt="nuphoto" title="nuphoto">
 
 Data Science is becoming an increasingly popular field because of its numerous applications across industries. Data Science can be used to solve real-world problems and my hope is that people interested in understanding how data science concepts are applied to solve a real-life problem will benefit from this blog.
 
