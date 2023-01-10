@@ -21,13 +21,22 @@ Data Science is becoming an increasingly popular field because of its numerous a
 In this blog, I will be utilizing the applications of data science concepts by investigating the impact of social and economic factors linked to students' dropout and academic successes in various undergraduate degrees. 
 
 ### Problem Statement
+Understanding students' academic outcomes and dropouts are important to understand as more US students are dropping out of school. Reasons such rising costs, mental and physical health issues, uncertainty of what they want to study, and finding a job are some of the reasons students may drop out of school. The impact of COVID-19 also is a main reason for students quitting school. 
+
+According to the most recent report done by the Education Data Initiative, 32.9% of undergraduates do not complete their degree program. Dropping out of college can have long term effects, as college drop outs are 19.6% more likely to be unemployed than any degree holder and make an average of 32.6% less income than bachelor's degree holders (EDI). In addition, dropping out often leaves students with large debt loads and difficulty in the professional job market where a bachelor's degree or higher is required to apply. 
+
+It is important to research and understand predictive factors that are linked with student dropouts to be able to come up with solutions to improve student retention rates. 
+
+I'll also note here that some drop out of college to pursue their dreams. Bill Clinton, Steve Jobs, and Mark Zuckerberg were all college dropouts and are/were some of the richest people in the world. Recently, there has been a trend of a growing number of students dropping out of school to pursue entrepreneurship or join the information technoogy industry. 
 
 
 ### Stakeholders
 
+The stakeholders include students, higher education institutions, and the general public. Understanding predictive factors that are linked to student dropouts would allow higher education institutions to identify things that they can improve for both the individual and the institution. This would benefit the students' educational experiences and the institution would see higher retention rates. There is a higher chance that students who take out loans to attend college but do not finish are more likely to default, be unemployed, and/or earn lower incomes throughout their lives. This leaves the billions of dollars worth of taxpayers' money that goes towards higher education being wasted. Unemployment would likely decerease if the college drop out rate also decreased. 
+
 
 ### Data Collection Methods
-I will be using the dataset from Kaggle (source: Zenodo) to understand and predict student dropouts and academic outcomes. 
+I will be using the dataset from Kaggle (source: Zenodo) to understand and predict student dropouts and academic outcomes. The dataset provides a "comprehensive view of students enrolled in various undergraduate degrees offered at a higher education institution. It includes demographic data, social-economic factors and academic performance information that can be used to analyze the possible predictors of student dropout and academic success."
 
 
 
