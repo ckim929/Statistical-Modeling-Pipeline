@@ -27,7 +27,7 @@ According to the most recent report done by the Education Data Initiative, 32.9%
 
 It is important to research and understand predictive factors that are linked with student dropouts to be able to come up with solutions to improve student retention rates. 
 
-Not all college drop outs are struggling! Some drop out of college to pursue their dreams. Bill Clinton, Steve Jobs, and Mark Zuckerberg were all college dropouts and are/were some of the richest people in the world. Recently, there has been a trend of a growing number of students dropping out of school to pursue entrepreneurship or join the information technoogy industry. 
+Not all college drop outs are struggling! Some drop out of college to pursue their dreams. Bill Gates, Steve Jobs, and Mark Zuckerberg were all college dropouts and are/were some of the richest people in the world. Recently, there has been a trend of a growing number of students dropping out of school to pursue entrepreneurship or join the information technoogy industry. 
 
 
 ### Stakeholders
