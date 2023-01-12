@@ -14,14 +14,13 @@ Hello!
 Welcome to my blog! My name is Cathy and I am a third-year data science student at Northwestern University.
 
 
-<img src="C:\Users\cathy\OneDrive\Documents\DSProj\nuphoto.jpg" alt="nuphoto" title="nuphoto">
 
-Data Science is becoming an increasingly popular field because of its numerous applications across industries. Data Science can be used to solve real-world problems and my hope is that people interested in understanding how data science concepts are applied to solve a real-life problem will benefit from this blog.
+Data Science is becoming an increasingly popular field because of its numerous applications across industries. Data Science can be used to solve real-world problems. My hope is that people interested in understanding how data science concepts are applied to solve real-life problems will benefit from this blog.
 
 In this blog, I will be utilizing the applications of data science concepts by investigating the impact of social and economic factors linked to students' dropout and academic successes in various undergraduate degrees. 
 
 ### Problem Statement
-Understanding students' academic outcomes and dropouts are important to understand as more US students are dropping out of school. Reasons such rising costs, mental and physical health issues, uncertainty of what they want to study, and finding a job are some of the reasons students may drop out of school. The impact of COVID-19 also is a main reason for students quitting school. 
+Understanding students' academic outcomes and dropouts are important to understand as more US students are dropping out of school. Reasons such rising costs, mental and physical health issues, uncertainty of what they want to study, and finding a job are some of the reasons students may drop out of school. The COVID-19 pandemic has also been a substantial cause for student dropouts. 
 
 According to the most recent report done by the Education Data Initiative, 32.9% of undergraduates do not complete their degree program. Dropping out of college can have long term effects, as college drop outs are 19.6% more likely to be unemployed than any degree holder and make an average of 32.6% less income than bachelor's degree holders (EDI). In addition, dropping out often leaves students with large debt loads and difficulty in the professional job market where a bachelor's degree or higher is required to apply. 
 
