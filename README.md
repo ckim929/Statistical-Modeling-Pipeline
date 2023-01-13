@@ -17,7 +17,7 @@ Welcome to my blog! My name is Cathy and I am a third-year data science student 
 
 Data Science is becoming an increasingly popular field because of its numerous applications across industries and for its utilization in solving real-world problems. My hope is that people interested in understanding how data science concepts are applied to solve real-life problems will benefit from this blog.
 
-In this blog, I will be utilizing the applications of data science concepts by investigating the impact of social and economic factors linked to students' dropout and academic successes in various undergraduate degrees. 
+In this blog, I will be utilizing the applications of data science concepts by investigating the impact of social and economic factors linked to students' dropout and academic successes in various undergraduate degrees. I will be using Python and its libraries for data analysis, visualizations, and machine learning. 
 
 ### Problem Statement
 Understanding students' academic outcomes and dropouts are important to understand as more US students are dropping out of school. Reasons such rising costs, mental and physical health issues, uncertainty of what they want to study, and finding a job could be some of the reasons students may drop out of school. The COVID-19 pandemic has also been a substantial cause for student dropouts. 
