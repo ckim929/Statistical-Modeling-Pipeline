@@ -35,7 +35,7 @@ The stakeholders include students, higher education institutions, and the genera
 
 
 ### Data Collection Methods
-I will be using the dataset from Kaggle (source: Zenodo) to understand and predict student dropouts and academic outcomes. The dataset provides a "comprehensive view of students enrolled in various undergraduate degrees offered at a higher education institution. It includes demographic data, social-economic factors and academic performance information that can be used to analyze the possible predictors of student dropout and academic success."
+I will be using the dataset from [Kaggle](https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention) (source: [Zenodo](https://zenodo.org/record/5777340#.Y8GuR3bMK3B)) to understand and predict student dropouts and academic outcomes. The dataset provides a "comprehensive view of students enrolled in various undergraduate degrees offered at a higher education institution. It includes demographic data, social-economic factors and academic performance information that can be used to analyze the possible predictors of student dropout and academic success."
 
 
 
