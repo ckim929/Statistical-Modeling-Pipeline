@@ -22,8 +22,7 @@ In this blog, I will be utilizing the applications of data science concepts by i
 ### Problem Statement
 In this digital era, credit card usage is higher than it has ever been. [Statista](https://www.statista.com/statistics/568523/preferred-payment-methods-usa/) found that in 2021, 40% of all transactions were made with a credit card. As credit card use grows, the risk of fraud does as well. 
 
-Key findings by [dataprot]
-(https://dataprot.net/statistics/credit-card-fraud-statistics/) include:
+Key findings by [dataprot](https://dataprot.net/statistics/credit-card-fraud-statistics/) include:
 - People in their 30s are the most vulnerable to credit card fraud.
 - 54% of businesses are “somewhat confident” they would be able to detect fraudulent activity on time.
 - By 2023, retailers will lose about $130 billion each year on card-not-present transactions.
@@ -34,7 +33,7 @@ Key findings by [dataprot]
 
 ### Stakeholders
 
-The stakeholders include the credit card companies and the credit card users. Credit card companies are invested in making sure that customers are not charged for items that they did not purchase, because doing so would lead to mistrust in credit card usage and loss of trust from the users. Inability to detect fraud cases would also cost the company money. 83% of Americans own at least one credit card and the average American has 3.8 credit cards (Zippia)[https://www.zippia.com/advice/credit-card-statistics/#:~:text=83%25%20of%20Americans%20own%20at,American%20has%203.8%20credit%20cards.]. Therefore, it can be described that the stakeholders in this problem are the general consumers. Consumers want to stay protected in the purchases that they make which can not only cause monetary loss but also emotional distress. 
+The stakeholders include the credit card companies and the credit card users. Credit card companies are invested in making sure that customers are not charged for items that they did not purchase, because doing so would lead to mistrust in credit card usage and loss of trust from the users. Inability to detect fraud cases would also cost the company money. 83% of Americans own at least one credit card and the average American has 3.8 credit cards [Zippia](https://www.zippia.com/advice/credit-card-statistics/#:~:text=83%25%20of%20Americans%20own%20at,American%20has%203.8%20credit%20cards.). Therefore, it can be described that the stakeholders in this problem are the general consumers. Consumers want to stay protected in the purchases that they make which can not only cause monetary loss but also emotional distress. 
 
 
 ### Data Collection Methods
