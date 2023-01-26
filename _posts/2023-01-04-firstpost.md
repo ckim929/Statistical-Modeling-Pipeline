@@ -45,6 +45,8 @@ With the problem I am working with here, it is important to understand **data im
 
 * Insert countplot of 'Class' *
 
+As shown, cases that are not fraud (value = 0) make up insert% of the dataset while causes that are fraud (value = 1) only make up insert%. 
+
 
 
 
