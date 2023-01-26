@@ -18,7 +18,7 @@ This dataset collect and analyzed by Worldline and the [MLG](http://mlg.ulb.ac.b
 Upon initial analysis, the data I am working with here is clean. I've checked for null and duplicate values using **data.isnull().sum()** and **data.duplicated()**. All of the features are numerical variables labeled **V1, V2,..., V28**. However, because data cleaning is an iterative process it may be possible that I have to come back to this step again.
 
 ## Exploratory Data Analysis (EDA)
-It's important to understand the data to gather as much insight as possible from it. This step is all about making sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15). 
+It's important to understand the data to gather as much insight as possible from it. This step is all about making sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). 
 
 After reading in thed data, I used the *.head()* function of the pandas library to look at the first five observations of my dataset. 
 
