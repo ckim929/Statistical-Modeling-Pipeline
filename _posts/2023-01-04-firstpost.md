@@ -38,9 +38,14 @@ Classification algorithms use input variables to approximate a *discrete* output
 
 As such, the problem I am working with here is a **classification problem** as I am predicting whether something is fraud (1) or not fraud (0), based on the input variables in the dataset.
 
+![flowchart](https://user-images.githubusercontent.com/86743951/214941532-e38f7fb1-f9a8-4c8b-9c73-b92ce8da3fd2.jpg)
 
 ### Working with imbalanced data
-The dataset I am working with here is very imbalanced. 
+With the problem I am working with here, it is important to understand **data imbalance** and how to approach this issue. The credit card fraud detection dataset I am working with have a majority of transactions classified as not being fraud and very few classes as being fraud. 
+
+* Insert countplot of 'Class' *
+
+
 
 
 
