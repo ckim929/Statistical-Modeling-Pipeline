@@ -30,7 +30,7 @@ Next, I used the *is.null().sum()* function of the pandas library to see if ther
 I also used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. I found that my dataset does not contain any duplicate rows. 
 
 ## Regression vs Classification
-To further conduct EDA on the dataset, it is important to understand the difference between regression and classification. Both are types of **supervised machine learning (ML) algorithms**, meaning it uses labeled datasets to train algorithms to predict outcomes or classify data. Unsupervised learning uses ML algorithms to analyze and cluster *unlabeled* datasets without the need for human intervention. 
+To further conduct EDA on the dataset, it is important to understand the difference between **regression** and **classification**. Both are types of **supervised machine learning (ML) algorithms**, meaning it uses labeled datasets to train algorithms to predict outcomes or classify data. Unsupervised learning uses ML algorithms to analyze and cluster *unlabeled* datasets without the need for human intervention. 
 
 So what is the difference between regression and classification?
 Regression algorithms are used to predict a continuous value using the input variables. Regression predicts continuous variables by finding correlations between the dependent and independent variables (i.e. predicting house price, sales, temperature). 
