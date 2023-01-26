@@ -3,6 +3,7 @@
   Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
   In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
+  hi these are some changes
 -->
 
 # Credit Card Fraud Detection
@@ -12,7 +13,6 @@ _STAT 399 Independent Project_
 Hello!
 
 Welcome to my blog! My name is Cathy and I am a third-year data science student at Northwestern University.
-
 
 
 Data Science is becoming an increasingly popular field because of its numerous applications across industries and for its utilization in solving real-world problems. My hope is that people interested in understanding how data science concepts are applied to solve real-life problems will benefit from this blog.
