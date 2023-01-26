@@ -23,7 +23,7 @@ It's important to understand the data to gather as much insight as possible from
 After reading in thed data, I used the *.head()* function of the pandas library to look at the first five observations of my dataset. 
 
 
-![data_head](https://user-images.githubusercontent.com/86743951/214929652-db695f16-802f-4629-acdb-35cd0a15849d.png)
+![head](https://user-images.githubusercontent.com/86743951/214944882-7877bba7-3458-4de6-8bd7-3e98fd4761cb.png)
 
 
 Next, I used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. The dataset does not contain any null values.
