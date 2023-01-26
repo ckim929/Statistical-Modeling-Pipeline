@@ -23,7 +23,8 @@ It's important to understand the data to gather as much insight as possible from
 After reading in thed data, I used the *.head()* function of the pandas library to look at the first five observations of my dataset. 
 
 
-![data_head](docs/assets/head.png)
+![data_head](https://user-images.githubusercontent.com/86743951/214929652-db695f16-802f-4629-acdb-35cd0a15849d.png)
+
 
 Next, I used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. The dataset does not contain any null values.
 I also used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. I found that my dataset does not contain any duplicate rows. 
