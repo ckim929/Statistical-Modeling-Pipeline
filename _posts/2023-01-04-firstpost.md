@@ -23,6 +23,10 @@ It's important to understand the data to gather as much insight as possible from
 After reading in thed data, I used the *.head()* function of the pandas library to look at the first five observations of my dataset. 
 
 
+### Working with imbalanced data
+
+
+
 
 
 
