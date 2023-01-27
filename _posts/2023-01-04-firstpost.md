@@ -27,9 +27,12 @@ After reading in thed data, I used the *.head()* function of the pandas library 
 
 
 Next, I used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. The dataset does not contain any null values.
-![null_values](https://user-images.githubusercontent.com/86743951/215003428-bd953ca0-dfa0-4728-a1ab-98875dd692d3.png)
+
+![null_values](https://user-images.githubusercontent.com/86743951/215003746-1351832a-c590-4fb7-b0e0-723957f149c6.png)
+
 I also used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. I found that my dataset does not contain any duplicate rows. 
-![duplicates](https://user-images.githubusercontent.com/86743951/215003362-d4a46fb8-45f2-48e8-a7ef-8b6f21a473bd.png)
+
+![duplicates](https://user-images.githubusercontent.com/86743951/215003708-56f3006b-b45b-4ae6-a1e1-f66bc8d87fe1.png)
 
 ## Regression vs Classification
 To further conduct EDA on the dataset, it is important to understand the difference between **regression** and **classification**. Both are types of **supervised machine learning (ML) algorithms**, meaning it uses labeled datasets to train algorithms to predict outcomes or classify data. Unsupervised learning uses ML algorithms to analyze and cluster *unlabeled* datasets without the need for human intervention. 
