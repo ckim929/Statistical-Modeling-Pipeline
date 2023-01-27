@@ -34,6 +34,12 @@ I also used the *.duplicated()* to see if there existed any duplicate rows in my
 
 ![duplicates](https://user-images.githubusercontent.com/86743951/215003708-56f3006b-b45b-4ae6-a1e1-f66bc8d87fe1.png)
 
+
+The **.info()** function is also useful pandas function for printing important information such as its index dtype and columns, non-null values and memory usage.
+
+![datainfo](https://user-images.githubusercontent.com/86743951/215006655-682f7a9b-632b-4d45-895e-bbef744514e1.png)
+
+
 ## Regression vs Classification
 To further conduct EDA on the dataset, it is important to understand the difference between **regression** and **classification**. Both are types of **supervised machine learning (ML) algorithms**, meaning it uses labeled datasets to train algorithms to predict outcomes or classify data. Unsupervised learning uses ML algorithms to analyze and cluster *unlabeled* datasets without the need for human intervention. 
 
@@ -48,9 +54,14 @@ As such, the problem I am working with here is a **classification problem** as I
 ### Working with imbalanced data
 With the problem I am working with here, it is important to understand **data imbalance** and how to approach this issue. The credit card fraud detection dataset I am working with have a majority of transactions classified as not being fraud and very few classes as being fraud. 
 
-* Insert countplot of 'Class' *
 
-As shown, cases that are not fraud (value = 0) make up insert% of the dataset while causes that are fraud (value = 1) only make up insert%. 
+![countplot](https://user-images.githubusercontent.com/86743951/215005352-3b07ff68-c3af-4d9a-8c02-17923ea73da6.png)
+
+
+Cases that are not fraud (value = 0) make up 99.83% of the dataset while causes that are fraud (value = 1) only make up 0.17%. This is a problem because the objective of many models are to maximize the overall accuracy. However, if one was to measure how good the model is with classification accuracy where it is a percentage of the total correct predictions, they would get a classification score nearing a 100% simply due to the imbalanced nature of the dataset. Steps to minimize bias towards the majority class must be taken and this will be further explored in upcoming posts as I explore various techniques to handle imbalanced data.
+
+
+
 
 
 
