@@ -27,7 +27,9 @@ After reading in thed data, I used the *.head()* function of the pandas library 
 
 
 Next, I used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. The dataset does not contain any null values.
+![null_values](https://user-images.githubusercontent.com/86743951/215003428-bd953ca0-dfa0-4728-a1ab-98875dd692d3.png)
 I also used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. I found that my dataset does not contain any duplicate rows. 
+![duplicates](https://user-images.githubusercontent.com/86743951/215003362-d4a46fb8-45f2-48e8-a7ef-8b6f21a473bd.png)
 
 ## Regression vs Classification
 To further conduct EDA on the dataset, it is important to understand the difference between **regression** and **classification**. Both are types of **supervised machine learning (ML) algorithms**, meaning it uses labeled datasets to train algorithms to predict outcomes or classify data. Unsupervised learning uses ML algorithms to analyze and cluster *unlabeled* datasets without the need for human intervention. 
@@ -38,7 +40,7 @@ Classification algorithms use input variables to approximate a *discrete* output
 
 As such, the problem I am working with here is a **classification problem** as I am predicting whether something is fraud (1) or not fraud (0), based on the input variables in the dataset.
 
-![flowchart](https://user-images.githubusercontent.com/86743951/214941532-e38f7fb1-f9a8-4c8b-9c73-b92ce8da3fd2.jpg)
+![flowchart](https://user-images.githubusercontent.com/86743951/215003065-f9f9ec31-e39b-4750-bb40-4997e1e2c384.jpg)
 
 ### Working with imbalanced data
 With the problem I am working with here, it is important to understand **data imbalance** and how to approach this issue. The credit card fraud detection dataset I am working with have a majority of transactions classified as not being fraud and very few classes as being fraud. 
