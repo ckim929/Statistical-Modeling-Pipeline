@@ -10,7 +10,7 @@
 
 _STAT 399 Independent Project_
 
-Hello!
+**Hello!**
 
 Welcome to my blog! My name is Cathy and I am a third-year data science student at Northwestern University.
 
