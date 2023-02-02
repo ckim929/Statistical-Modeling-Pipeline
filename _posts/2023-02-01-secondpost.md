@@ -3,8 +3,7 @@ title: "Feature Engineering"
 date: 2023-02-01
 ---
 
-## Feature Engineering
-What is feature engineering and why is it important?
+What is **feature engineering** and why is it important?
 
 A feature represents any measurable input that can be used for analysis. 
 Feature *engineering* takes raw observations and converts them into useful features for use in supervised learning. 
