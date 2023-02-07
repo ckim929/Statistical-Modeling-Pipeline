@@ -6,7 +6,22 @@
   hi these are some changes
 -->
 
-# Credit Card Fraud Detection
+# Data Science
+## A classification Problem: Credit Card Fraud Detection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 _STAT 399 Independent Project_
 
