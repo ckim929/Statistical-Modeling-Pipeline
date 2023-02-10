@@ -38,17 +38,6 @@ I'll drop the duplicated rows using the pandas drop_duplicates() function.
 ![drop_duplicates](https://user-images.githubusercontent.com/86743951/215145698-ac4c8bfd-4eff-4def-aee9-c8dcf5c436eb.png)
 
 
-## Regression vs Classification
-To further conduct EDA on the dataset, it is important to understand the difference between **regression** and **classification**. Both are types of **supervised machine learning (ML) algorithms**, meaning it uses labeled datasets to train algorithms to predict outcomes or classify data. Unsupervised learning uses ML algorithms to analyze and cluster *unlabeled* datasets without the need for human intervention. 
-
-So what is the difference between regression and classification?
-Regression algorithms are used to predict a continuous value using the input variables. Regression predicts continuous variables by finding correlations between the dependent and independent variables (i.e. predicting house price, sales, temperature). 
-Classification algorithms use input variables to approximate a *discrete* output variable. The dataset is divided into different categories and the algorithm estimates discrete values (i.e. 0 and 1, yes and no, true or false). Some examples of classification problems include predicting whether someting is spam or not and sentiment analysis (positive or negative).
-
-As such, the problem I am working with here is a **classification problem** as I am predicting whether something is fraud (1) or not fraud (0), based on the input variables in the dataset.
-
-![flowchart](https://user-images.githubusercontent.com/86743951/215003065-f9f9ec31-e39b-4750-bb40-4997e1e2c384.jpg)
-
 ### Making correlation
 
 Correlation is a measure of the relationship between two variables. The correlation coefficient ranges from -1 to 1. Below, I've created a bar chart that shows the relationship between the features and the response variable, 'Class'. 
