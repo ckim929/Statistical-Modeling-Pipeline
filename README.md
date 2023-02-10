@@ -9,50 +9,19 @@
 # Data Science
 ## A classification Problem: Credit Card Fraud Detection
 
+Data Science is the field of study that extracts meaningful and actionable insights from data, using knowledge of statistics, mathematics, and programming. The vastly increasing volume of data in the world and the realization of its applications have made data science an incredibly popular field.
 
+**Machine Learning** is a part of data science that is all about making informed predictions. Machine learning works by supplying data and supplying a model that allows the model to find patterns or make predictions.
 
+**Unspervised learning** is one machine learning approach that analyzes and clusters unlabeled datasets. This approach discovers hidden patterns in data without the need for human intervention.
 
+**Supervised learning** is another machine learning approach that utilizes labeled datasets and make predictions based on both of the input and output data. Supervised is separated into two types of problems: **Classification** and **Regression**
 
+Regression algorithms are used to predict a continuous value using the input variables. Regression predicts continuous variables by finding correlations between the dependent and independent variables (i.e. predicting house price, sales, temperature). Classification algorithms use input variables to approximate a discrete output variable. The dataset is divided into different categories and the algorithm estimates discrete values (i.e. 0 and 1, yes and no, true or false). Some examples of classification problems include predicting whether someting is spam or not and sentiment analysis (positive or negative).
 
+![flowchart](https://user-images.githubusercontent.com/86743951/215003065-f9f9ec31-e39b-4750-bb40-4997e1e2c384.jpg)
 
-
-
-
-
-
-
-
-
-_STAT 399 Independent Project_
-
-**Hello!**
-
-Welcome to my blog! My name is Cathy and I am a third-year data science student at Northwestern University.
-
-
-Data Science is becoming an increasingly popular field because of its numerous applications across industries and for its utilization in solving real-world problems. My hope is that people interested in understanding how data science concepts are applied to solve real-life problems will benefit from this blog.
-
-In this blog, I will be utilizing the applications of data science concepts by investigating credit card fraud in a classification problem. I will be using Python and its libraries for data analysis, visualizations, and machine learning. 
-
-## Problem Statement
-In this digital era, credit card usage is higher than it has ever been. [Statista](https://www.statista.com/statistics/568523/preferred-payment-methods-usa/) found that in 2021, 40% of all transactions were made with a credit card. As credit card use grows, the risk of fraud does as well. 
-
-Key findings by [dataprot](https://dataprot.net/statistics/credit-card-fraud-statistics/) include:
-- People in their 30s are the most vulnerable to credit card fraud.
-- 54% of businesses are “somewhat confident” they would be able to detect fraudulent activity on time.
-- By 2023, retailers will lose about $130 billion each year on card-not-present transactions.
-- The amount of credit card data available on the dark web increased by 135% last year.
-- Card-not-present fraud is now 81% more common than point-of-sale fraud.
-- 87% of surveyed adults in the US admit to shopping online over public WiFi.
-
-
-## Stakeholders
-
-The stakeholders include the credit card companies and the credit card users. Credit card companies are invested in making sure that customers are not charged for items that they did not purchase, because doing so would lead to mistrust in credit card usage and loss of trust from the users. Inability to detect fraud cases would also cost the company money. 83% of Americans own at least one credit card and the average American has 3.8 credit cards [Zippia](https://www.zippia.com/advice/credit-card-statistics/#:~:text=83%25%20of%20Americans%20own%20at,American%20has%203.8%20credit%20cards.). Therefore, it can be described that the stakeholders in this problem are the general consumers. Consumers want to stay protected in the purchases that they make which can not only cause monetary loss but also emotional distress. 
-
-
-## Data Collection Methods
-I will be using the dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) which has been collected and analyzed during a research colaboration between Worldline and the [Machine Learning Group](https://mlg.ulb.ac.be/wordpress/).outcomes. The dataset includes transactions made by credit cards in September 2013 by European cardholders. Due to confidentiality, the dataset contains only numerical input variables (V1, V2,..., V28) from a PCA transformation.
+In this blog, I will be utilizing the applications of data science concepts by investigating **credit card fraud** in a classification problem. I will be using Python and its libraries for data analysis, visualizations, and machine learning. 
 
 
 
