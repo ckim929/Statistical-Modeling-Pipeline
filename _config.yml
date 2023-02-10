@@ -1,5 +1,7 @@
 theme: minima
 author: Cathy Kim
+title: Data Science
+description: Data Science pipeline using credit card fraud detection dataset
 
 ---
   defaults:
