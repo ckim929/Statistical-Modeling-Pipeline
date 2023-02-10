@@ -7,7 +7,7 @@
 -->
 
 # Data Science
-## A classification Problem: Credit Card Fraud Detection
+#### STAT 399 Independent Study
 
 **Data Science** is the field of study that extracts meaningful and actionable insights from data, using knowledge of statistics, mathematics, and programming. The vastly increasing volume of data in the world and the realization of its applications have made data science an incredibly popular field.
 
