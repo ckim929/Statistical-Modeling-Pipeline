@@ -14,8 +14,7 @@ Feature engineering consists of various processes, including feature creation, t
 
 The [credit card dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) I am working with is the result of a PCA transformation.
 
-### A Quick Snippet on PCA Transformation
-A PCA transformation is a dimensionality-reduction method that transforms a large set of variables into a smaller one that still keeps most of the original information. Essentially, it reduces the number of variables while preserving as much information as possible ([builtin](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)). Without going into too much of the mathematical details, PCA essentially uses the variance to quantify the amount and the parts of the data that is important. Data that has higher variance holds more information. 
+A **PCA transformation** is a dimensionality-reduction method that transforms a large set of variables into a smaller one that still keeps most of the original information. Essentially, it reduces the number of variables while preserving as much information as possible ([builtin](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)). Without going into too much of the mathematical details, PCA essentially uses the variance to quantify the amount and the parts of the data that is important. Data that has higher variance holds more information. 
 
 Wikipedia defines PCA as
 
