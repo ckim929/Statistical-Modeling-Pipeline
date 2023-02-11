@@ -1,6 +1,7 @@
 --- 
 title: "Problem Statement, Stakeholders, and Data Collection Methods"
 date: 2023-01-20
+layout: single
 ---
 
 
