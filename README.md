@@ -13,6 +13,8 @@
 
 **Machine Learning** is a part of data science that is all about making informed predictions. Machine learning works by supplying data and supplying a model that allows the model to find patterns or make predictions.
 
+![venndiagram](https://user-images.githubusercontent.com/86743951/218233629-b8ae5824-f124-4464-80fa-43cd60940946.png)
+
 *Unspervised learning* is one machine learning approach that analyzes and clusters unlabeled datasets. This approach discovers hidden patterns in data without the need for human intervention.
 
 *Supervised learning* is another machine learning approach that utilizes labeled datasets and make predictions based on both of the input and output data. Supervised is separated into two types of problems: *Classification* and *Regression*
