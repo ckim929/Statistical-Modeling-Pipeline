@@ -11,7 +11,7 @@
 
 **Data Science** is the field of study that extracts meaningful and actionable insights from data, using knowledge of statistics, mathematics, and programming. The vastly increasing volume of data in the world and the realization of its applications have made data science an incredibly popular field.
 
-**Machine Learning**, a widely important concept, is a part of data science that is all about making informed predictions. Machine learning works by supplying data and supplying a model that allows the model to find patterns or make predictions.
+**Machine Learning** is an important part of data science that is all about making informed predictions. Machine learning works by supplying data and supplying a model that allows the model to find patterns or make predictions.
 
 ![venndiagram](https://user-images.githubusercontent.com/86743951/218233629-b8ae5824-f124-4464-80fa-43cd60940946.png)
 
