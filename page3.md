@@ -2,7 +2,7 @@
 title: "Feature Engineering"
 date: 2023-02-01
 layout: default
-rank: 1
+rank: 3
 ---
 
 What is **feature engineering** and why is it important?
