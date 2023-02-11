@@ -21,7 +21,7 @@
 
 Regression algorithms are used to predict a continuous value using the input variables. Regression predicts continuous variables by finding correlations between the dependent and independent variables (i.e. predicting house price, sales, temperature). Classification algorithms use input variables to approximate a discrete output variable. The dataset is divided into different categories and the algorithm estimates discrete values (i.e. 0 and 1, yes and no, true or false). Some examples of classification problems include predicting whether someting is spam or not and sentiment analysis (positive or negative).
 
-![flowchart](https://user-images.githubusercontent.com/86743951/215003065-f9f9ec31-e39b-4750-bb40-4997e1e2c384.jpg "Medium(https://medium.com/analytics-vidhya/introduction-to-data-science-28deb32878e7)")
+![flowchart](https://user-images.githubusercontent.com/86743951/215003065-f9f9ec31-e39b-4750-bb40-4997e1e2c384.jpg)
 
 In this blog, I will be utilizing the applications of data science concepts by investigating **credit card fraud** in a classification problem. I will be using Python and its libraries for data analysis, visualizations, and machine learning. 
 
