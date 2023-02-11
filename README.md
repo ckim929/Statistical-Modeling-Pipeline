@@ -14,7 +14,6 @@
 **Machine Learning**, a widely important concept, is a part of data science that is all about making informed predictions. Machine learning works by supplying data and supplying a model that allows the model to find patterns or make predictions.
 
 ![venndiagram](https://user-images.githubusercontent.com/86743951/218233629-b8ae5824-f124-4464-80fa-43cd60940946.png)
-https://medium.com/analytics-vidhya/introduction-to-data-science-28deb32878e7
 
 *Unspervised learning* is one machine learning approach that analyzes and clusters unlabeled datasets. This approach discovers hidden patterns in data without the need for human intervention.
 
