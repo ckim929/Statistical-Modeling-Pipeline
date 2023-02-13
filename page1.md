@@ -23,9 +23,9 @@ Key findings by [dataprot](https://dataprot.net/statistics/credit-card-fraud-sta
 
 ### Stakeholders
 
-The stakeholders include the credit card companies and the credit card users. Credit card companies are invested in making sure that customers are not charged for items that they did not purchase, because doing so would lead to mistrust in the usage of credit cards. Additionaly, inability to detect fraud cases would cost the company money. 
+The stakeholders include the credit card companies and the credit card users. Credit card companies are invested in making sure that customers are not charged for items that they did not purchase, because doing so would lead to mistrust in its usage, consequently costing the company money.
 
-Consumers are also stakeholders in this problem. It has been found that 83% of Americans own at least one credit card and the average American has 3.8 credit cards ([Zippia](https://www.zippia.com/advice/credit-card-statistics/#:~:text=83%25%20of%20Americans%20own%20at,American%20has%203.8%20credit%20cards.)). Consumers want to stay protected in the purchases that they make which can not only cause monetary loss but also emotional distress. 
+Consumers are also stakeholders in this problem. Consumers want to stay protected in the purchases that they make which can not only cause monetary loss but also emotional distress. It has been found that 83% of Americans own at least one credit card and the average American has 3.8 credit cards ([Zippia](https://www.zippia.com/advice/credit-card-statistics/#:~:text=83%25%20of%20Americans%20own%20at,American%20has%203.8%20credit%20cards.)). 
 
 
 ### Data Collection Methods
