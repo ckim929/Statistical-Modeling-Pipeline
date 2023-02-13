@@ -5,16 +5,34 @@ layout: default
 rank: 2
 ---
 
-## Data Cleaning 
+## Data Cleaning & EDA
 The first step of the data science pipeline is **data cleaning**. This process involves fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
 
-I used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. 
+It's important to understand the data to gather as much insight as possible from it. The goal of EDA is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). 
+
+After reading in the data, I first used the *.head()* function of the pandas library to look at the first five observations of my dataset. This function is useful for getting a quick glance to see if the dataset encompasses the right type of data.
+
+![head](https://user-images.githubusercontent.com/86743951/214944882-7877bba7-3458-4de6-8bd7-3e98fd4761cb.png)
+
+I then used the .shape function of the pandas library to return the shape of the dataframe. We can see that there are 284807 rows and 31 columns.
+
+![shape](https://user-images.githubusercontent.com/86743951/218567242-10d98d9a-3f6c-4c08-8096-ad15dd5ab926.png)
+
+The original dataframe contained 284807 rows, but after removing the duplicated rows, the number of rows reduced to 283726 rows. 
+
+![shape](https://user-images.githubusercontent.com/86743951/218567242-10d98d9a-3f6c-4c08-8096-ad15dd5ab926.png)
+
+The *.info()* function is also useful pandas function for printing important information such as its index dtype and columns, non-null values and memory usage.
+
+![datainfo](https://user-images.githubusercontent.com/86743951/215006655-682f7a9b-632b-4d45-895e-bbef744514e1.png)
+
+I then used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. 
 
 ![null_values](https://user-images.githubusercontent.com/86743951/215003746-1351832a-c590-4fb7-b0e0-723957f149c6.png)
 
 The dataset does not contain any null values.
 
-I also used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. 
+I then used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. 
 
 ![duplicates](https://user-images.githubusercontent.com/86743951/215144874-93d46864-71d0-40a3-ad48-e42dd7f54fac.png)
 
@@ -25,23 +43,9 @@ I dropped the duplicated rows using the pandas drop_duplicates() function.
 ![drop_duplicates](https://user-images.githubusercontent.com/86743951/215145698-ac4c8bfd-4eff-4def-aee9-c8dcf5c436eb.png)
 
 ## Exploratory Data Analysis (EDA)
-It's important to understand the data to gather as much insight as possible from it. This step is all about making sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). 
+It's important to understand the data to gather as much insight as possible from it. The goal of EDA is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). 
 
 ![EDA](https://user-images.githubusercontent.com/86743951/218554426-a54bcb7d-68b8-4a77-951d-d02ce1a76642.png)
-
-After reading in the data, I used the *.shape* function of the pandas library to return the shape of the dataframe. We can see that there are 284807 rows and 31 columns. 
-
-![datashape](https://user-images.githubusercontent.com/86743951/215136138-7f1a73b0-2ce0-4473-a3be-2157d6bf219f.png)
-
-I then used the *.head()* function of the pandas library to look at the first five observations of my dataset. athe function is useful for getting a quick glance to see if my dataset encompasses the right type of data.
-
-![head](https://user-images.githubusercontent.com/86743951/214944882-7877bba7-3458-4de6-8bd7-3e98fd4761cb.png)
-
-
-The *.info()* function is also useful pandas function for printing important information such as its index dtype and columns, non-null values and memory usage.
-
-![datainfo](https://user-images.githubusercontent.com/86743951/215006655-682f7a9b-632b-4d45-895e-bbef744514e1.png)
-
 
 
 ### Making correlation
