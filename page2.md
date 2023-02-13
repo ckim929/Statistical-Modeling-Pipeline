@@ -5,10 +5,24 @@ layout: default
 rank: 2
 ---
 
-## Data Cleaning
-The first step of the data science pipeline is data cleaning. **Data cleaning** is the process of fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
+## Data Cleaning 
+The first step of the data science pipeline is **data cleaning**. This process involves fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
 
-Upon initial analysis, the data I am working with here is relatively clean. I've checked for null and duplicate values using **data.isnull().sum()** and **data.duplicated()**. I removed the duplicage values found in the dataset. All of the features are numerical variables labeled **V1, V2,..., V28**. However, because data cleaning is an iterative process it may be possible that I have to come back to this step again.
+I used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. 
+
+![null_values](https://user-images.githubusercontent.com/86743951/215003746-1351832a-c590-4fb7-b0e0-723957f149c6.png)
+
+The dataset does not contain any null values.
+
+I also used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. 
+
+![duplicates](https://user-images.githubusercontent.com/86743951/215144874-93d46864-71d0-40a3-ad48-e42dd7f54fac.png)
+
+I found that my dataset contains 1081 duplicated rows. 
+
+I dropped the duplicated rows using the pandas drop_duplicates() function.
+
+![drop_duplicates](https://user-images.githubusercontent.com/86743951/215145698-ac4c8bfd-4eff-4def-aee9-c8dcf5c436eb.png)
 
 ## Exploratory Data Analysis (EDA)
 It's important to understand the data to gather as much insight as possible from it. This step is all about making sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). 
@@ -28,22 +42,6 @@ The *.info()* function is also useful pandas function for printing important inf
 
 ![datainfo](https://user-images.githubusercontent.com/86743951/215006655-682f7a9b-632b-4d45-895e-bbef744514e1.png)
 
-
-Next, I used the *is.null().sum()* function of the pandas library to see if there existed any null values in the dataset. 
-
-![null_values](https://user-images.githubusercontent.com/86743951/215003746-1351832a-c590-4fb7-b0e0-723957f149c6.png)
-
-The dataset does not contain any null values.
-
-I also used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. 
-
-![duplicates](https://user-images.githubusercontent.com/86743951/215144874-93d46864-71d0-40a3-ad48-e42dd7f54fac.png)
-
-I found that my dataset contains 1081 duplicated rows. 
-
-I dropped the duplicated rows using the pandas drop_duplicates() function.
-
-![drop_duplicates](https://user-images.githubusercontent.com/86743951/215145698-ac4c8bfd-4eff-4def-aee9-c8dcf5c436eb.png)
 
 
 ### Making correlation
