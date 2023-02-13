@@ -22,13 +22,13 @@ The *.info()* function is also useful pandas function for printing important inf
 
 ![datainfo](https://user-images.githubusercontent.com/86743951/215006655-682f7a9b-632b-4d45-895e-bbef744514e1.png)
 
-To see if there are any null values in my dataset, I used the *is.null().sum()* function of the pandas library.
+To understand if I need to perform data cleaning and remove or impute values, I used the *is.null().sum()* function of the pandas library to see if I had any null values in the datset.
 
 ![null_values](https://user-images.githubusercontent.com/86743951/215003746-1351832a-c590-4fb7-b0e0-723957f149c6.png)
 
 The dataset does not contain any null values.
 
-I then used the *.duplicated()* to see if there existed any duplicate rows in my dataset. The *.duplicated()* function of the pandas library returns a boolean series denoting duplicate rows. 
+I then used the *.duplicated()* to see if there existed any duplicate rows in my dataset. Using the *.duplicated()* function of the pandas library returned a boolean series denoting duplicate rows. 
 
 ![duplicates](https://user-images.githubusercontent.com/86743951/215144874-93d46864-71d0-40a3-ad48-e42dd7f54fac.png)
 
