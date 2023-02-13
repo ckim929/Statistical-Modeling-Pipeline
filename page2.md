@@ -11,7 +11,7 @@ rank: 2
 
 The first step of the data science pipeline is **data cleaning**. This process involves fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
 
-It's important to understand the data to gather as much insight as possible from it. The goal of **exploratory data analysis (EDA)** is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). There is a lot of overlap between the processes of data cleaning and performing EDA.
+It is important to comprehensively understand the data to be able to gather as much insight as possible. The goal of **exploratory data analysis (EDA)** is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). There is a lot of overlap between the processes of data cleaning and performing EDA.
 
 After reading in the data, I first used the *.head()* function of the pandas library to look at the first five observations of my dataset. This function is useful for getting a quick glance of whether the dataset encompasses the right type of data.
 
@@ -19,7 +19,7 @@ After reading in the data, I first used the *.head()* function of the pandas lib
 
 I then used the *.shape* function of the pandas library to return the shape of the dataframe. We can see that there are 284807 rows and 31 columns.
 
-![shape](https://user-images.githubusercontent.com/86743951/218567242-10d98d9a-3f6c-4c08-8096-ad15dd5ab926.png)
+![datashape](https://user-images.githubusercontent.com/86743951/218572644-afc75098-b765-4651-ae9b-c4cf47759559.png)
 
 The *.info()* function is also useful pandas function for printing important information such as its index dtype and columns, non-null values and memory usage.
 
