@@ -8,21 +8,21 @@ rank: 2
 ## Data Cleaning
 The first step of the data science pipeline is data cleaning. **Data cleaning** is the process of fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
 
-Upon initial analysis, the data I am working with here is relatively clean. I've checked for null and duplicate values using **data.isnull().sum()** and **data.duplicated()**. I found some duplicate values that I've removed. All of the features are numerical variables labeled **V1, V2,..., V28**. However, because data cleaning is an iterative process it may be possible that I have to come back to this step again.
+Upon initial analysis, the data I am working with here is relatively clean. I've checked for null and duplicate values using **data.isnull().sum()** and **data.duplicated()**. I removed the duplicage values found in the dataset. All of the features are numerical variables labeled **V1, V2,..., V28**. However, because data cleaning is an iterative process it may be possible that I have to come back to this step again.
 
 ## Exploratory Data Analysis (EDA)
 It's important to understand the data to gather as much insight as possible from it. This step is all about making sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). 
 
-After reading in the data, I used the .shape function of the pandas library to return the shape of the dataframe. We can see that there are 284807 rows and 31 columns. 
+After reading in the data, I used the *.shape* function of the pandas library to return the shape of the dataframe. We can see that there are 284807 rows and 31 columns. 
 
 ![datashape](https://user-images.githubusercontent.com/86743951/215136138-7f1a73b0-2ce0-4473-a3be-2157d6bf219f.png)
 
-I used the *.head()* function of the pandas library to look at the first five observations of my dataset. 
+I then used the *.head()* function of the pandas library to look at the first five observations of my dataset. This is useful for getting a quick glance to see if my dataset encompasses the right type of data.
 
 ![head](https://user-images.githubusercontent.com/86743951/214944882-7877bba7-3458-4de6-8bd7-3e98fd4761cb.png)
 
 
-The **.info()** function is also useful pandas function for printing important information such as its index dtype and columns, non-null values and memory usage.
+The *.info()* function is also useful pandas function for printing important information such as its index dtype and columns, non-null values and memory usage.
 
 ![datainfo](https://user-images.githubusercontent.com/86743951/215006655-682f7a9b-632b-4d45-895e-bbef744514e1.png)
 
@@ -35,7 +35,7 @@ I also used the *.duplicated()* to see if there existed any duplicate rows in my
 
 ![duplicates](https://user-images.githubusercontent.com/86743951/215144874-93d46864-71d0-40a3-ad48-e42dd7f54fac.png)
 
-I'll drop the duplicated rows using the pandas drop_duplicates() function.
+I dropped the duplicated rows using the pandas drop_duplicates() function.
 
 ![drop_duplicates](https://user-images.githubusercontent.com/86743951/215145698-ac4c8bfd-4eff-4def-aee9-c8dcf5c436eb.png)
 
