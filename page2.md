@@ -11,13 +11,13 @@ rank: 2
 
 The first step of the data science pipeline is **data cleaning**. This process involves fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
 
-It's important to understand the data to gather as much insight as possible from it. The goal of EDA is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). There is a lot of overlap between the process of data cleaning and performing EDA.
+It's important to understand the data to gather as much insight as possible from it. The goal of **exploratory data analysis (EDA)** is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). There is a lot of overlap between the processes of data cleaning and performing EDA.
 
 After reading in the data, I first used the *.head()* function of the pandas library to look at the first five observations of my dataset. This function is useful for getting a quick glance of whether the dataset encompasses the right type of data.
 
 ![head](https://user-images.githubusercontent.com/86743951/214944882-7877bba7-3458-4de6-8bd7-3e98fd4761cb.png)
 
-I then used the .shape function of the pandas library to return the shape of the dataframe. We can see that there are 284807 rows and 31 columns.
+I then used the *.shape* function of the pandas library to return the shape of the dataframe. We can see that there are 284807 rows and 31 columns.
 
 ![shape](https://user-images.githubusercontent.com/86743951/218567242-10d98d9a-3f6c-4c08-8096-ad15dd5ab926.png)
 
@@ -50,7 +50,7 @@ The original dataframe contained 284807 rows, but after removing the duplicated 
 
 ### Making correlation
 
-Correlation is a measure of the relationship between two variables. The correlation coefficient ranges from -1 to 1, where -1 decribes a perfect negative correlation and +1 describes a perfect positive (direct) correlation. 
+Correlation is a measure of the relationship between two variables. The correlation coefficient ranges from -1 to +1, where -1 decribes a perfect negative correlation and +1 describes a perfect positive (direct) correlation. 
 
 Below, I've created a bar chart that shows the relationship between the features and the response variable, 'Class', from order of least correlated to most correlated. 
 
@@ -58,7 +58,7 @@ Below, I've created a bar chart that shows the relationship between the features
 
 
 ### Working with imbalanced data
-With the problem that I am working with here, it is important to understand **data imbalance** and how to approach this issue. The credit card fraud detection dataset I am working with have a majority of transactions classified as not being fraudulent and *very* few classes as being fraud. 
+With the problem that I am working with, it is important to understand **data imbalance** and how to approach this issue. The credit card fraud detection dataset I am working with has a majority of transactions classified as not being fraudulent and *very* few classes as being fraud. 
 
 
 ![countplot](https://user-images.githubusercontent.com/86743951/215146610-a57415ca-7c73-443b-a08f-dce59e622284.png)
