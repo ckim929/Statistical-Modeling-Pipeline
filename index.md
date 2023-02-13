@@ -10,15 +10,17 @@
 
 **Data Science** is the field of study that extracts meaningful and actionable insights from data, using knowledge of statistics, mathematics, and programming. The vastly increasing volume of data in the world and the realization of its applications have made data science an incredibly popular field.
 
-**Machine Learning** is an important part of data science that is all about making informed predictions. Machine learning works by supplying data and supplying a model that allows the model to find patterns or make predictions. It is a branch of artificial intelligence, in which systems can perform specific tasks by adapting and learning from previous computations. Fraud detection, online recommendations, and self-driving cars are some of the well-known applications existing in the world today. 
+**Machine Learning** is an important part of data science that is all about making informed predictions. Machine learning works by supplying data and a model that allows the model to find patterns and make predictions. It is a branch of artificial intelligence, in which systems can perform specific tasks by adapting and learning from previous computations. Fraud detection, online recommendations, and self-driving cars are some of the well-known applications in the world today. 
 
 ![venndiagram](https://user-images.githubusercontent.com/86743951/218233629-b8ae5824-f124-4464-80fa-43cd60940946.png)
 
 *Unspervised learning* is one machine learning approach that analyzes and clusters unlabeled datasets. This approach discovers hidden patterns in data without the need for human intervention.
 
-*Supervised learning* is another machine learning approach that utilizes labeled datasets and make predictions based on both of the input and output data. Supervised is separated into two types of problems: *Classification* and *Regression*
+*Supervised learning* is another machine learning approach that utilizes labeled datasets and makes predictions based on both the input and the output data. Supervised learning is separated into two types of problems: *Classification* and *Regression*
 
-Regression algorithms are used to predict a continuous value using the input variables. Regression predicts continuous variables by finding correlations between the dependent and independent variables (i.e. predicting house price, sales, temperature). Classification algorithms use input variables to approximate a discrete output variable. The dataset is divided into different categories and the algorithm estimates discrete values (i.e. 0 and 1, yes and no, true or false). Some examples of classification problems include predicting whether someting is spam or not and sentiment analysis (positive or negative).
+Regression algorithms predict continuous variables by finding correlations between the dependent and independent variables (i.e. predicting house price, sales, temperature). 
+
+On the other hand, classification algorithms use input variables to approximate a discrete output variable. The dataset is divided into different categories and the algorithm estimates discrete values (i.e. 0 and 1, yes and no, true or false). Some examples of classification problems include predicting whether someting is spam or not and sentiment analysis (positive or negative).
 
 ![flowchart](https://user-images.githubusercontent.com/86743951/215003065-f9f9ec31-e39b-4750-bb40-4997e1e2c384.jpg)
 
