@@ -6,6 +6,9 @@ rank: 2
 ---
 
 ## Data Cleaning & Exploratory Data Analysis (EDA)
+
+![EDA](https://user-images.githubusercontent.com/86743951/218554426-a54bcb7d-68b8-4a77-951d-d02ce1a76642.png)
+
 The first step of the data science pipeline is **data cleaning**. This process involves fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
 
 It's important to understand the data to gather as much insight as possible from it. The goal of EDA is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). There is a lot of overlap between the process of data cleaning and performing EDA.
@@ -41,12 +44,6 @@ I dropped the duplicated rows using the pandas drop_duplicates() function.
 The original dataframe contained 284807 rows, but after removing the duplicated rows, the number of rows reduced to 283726 rows. 
 
 ![shape](https://user-images.githubusercontent.com/86743951/218567242-10d98d9a-3f6c-4c08-8096-ad15dd5ab926.png)
-
-
-## Exploratory Data Analysis (EDA)
-It's important to understand the data to gather as much insight as possible from it. The goal of EDA is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). 
-
-![EDA](https://user-images.githubusercontent.com/86743951/218554426-a54bcb7d-68b8-4a77-951d-d02ce1a76642.png)
 
 
 ### Making correlation
