@@ -5,7 +5,7 @@ layout: default
 rank: 2
 ---
 
-## Data Cleaning & EDA
+## Data Cleaning & Exploratory Data Analysis (EDA)
 The first step of the data science pipeline is **data cleaning**. This process involves fixing or removing incorrect, duplicate, or incomplete data within a dataset. The dataset I am working with contains only numerical variables resulting from a principal component analysis (PCA) transformation.
 
 It's important to understand the data to gather as much insight as possible from it. The goal of EDA is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). There is a lot of overlap between the process of data cleaning and performing EDA.
