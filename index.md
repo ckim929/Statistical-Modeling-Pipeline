@@ -24,7 +24,9 @@ On the other hand, classification algorithms use input variables to approximate 
 
 ![flowchart](https://user-images.githubusercontent.com/86743951/215003065-f9f9ec31-e39b-4750-bb40-4997e1e2c384.jpg)
 
-In this blog, I will be utilizing the applications of data science concepts by investigating **credit card fraud** in a classification problem. I will be using Python and its libraries for data analysis, visualizations, and machine learning. 
+In this blog, I will be utilizing the applications of data science concepts by investigating **credit card fraud** in a classification problem. This project will involve working from start to finish through the entire data science project pipeline. I will be using Python and its libraries for data analysis, visualizations, and machine learning. 
+
+![pipeline](https://user-images.githubusercontent.com/86743951/219457682-b03bea6b-b765-4cbf-a0f6-1291bd98c68b.jpg)
 
 
 
