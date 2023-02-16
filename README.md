@@ -25,8 +25,7 @@ Regression algorithms are used to predict a continuous value using the input var
 
 In this blog, I will be utilizing the applications of data science concepts by investigating **credit card fraud** in a classification problem. This project will involve working from start to finish through the entire data science project pipeline. I will be using Python and its libraries for data analysis, visualizations, and machine learning. 
 
-![IMG-2449](https://user-images.githubusercontent.com/86743951/219455701-84d02d78-ebe3-4e85-ad4e-6474e2d3c080.jpg)
-
+![pipeline](https://user-images.githubusercontent.com/86743951/219457682-b03bea6b-b765-4cbf-a0f6-1291bd98c68b.jpg)
 
 
 
