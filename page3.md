@@ -34,4 +34,4 @@ Wikipedia defines PCA as
 See this post by [builtin](https://builtin.com/data-science/step-step-explanation-principal-component-analysis) for more mathematical details (Jaddi).
 
 
-#### Checking for outliers
+### Checking for outliers
