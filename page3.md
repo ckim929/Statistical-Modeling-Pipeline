@@ -25,10 +25,13 @@ For this credit card dataset, there is not any more feature engineering to be do
 
 The [credit card dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) has already gone through a PCA transformation and been extracted and reduced down to 28 features. 'Time' and 'Amount' are the only features that has not been transformed.
 
-A PCA transformation is a dimensionality-reduction method that transforms a large set of variables into a smaller one while still keeping most of the original information. Essentially, it reduces the number of variables while preserving as much information as possible ([builtin](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)). The understanding of PCA assumes a linear algebra background, but to put it simply, PCA essentially uses variance to quantify the amount and the parts of the data that are important. Consequently, the components that have higher variance hold more information. 
+A PCA transformation is a dimensionality-reduction method that transforms a large set of variables into a smaller one while still keeping most of the original information. Essentially, it reduces the number of variables while preserving as much information as possible ([builtin](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)). PCA helps reduce the number of columns and makes them uncorrelated.
 
 Wikipedia defines PCA as
 
 *an orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on.*
 
 See this post by [builtin](https://builtin.com/data-science/step-step-explanation-principal-component-analysis) for more mathematical details (Jaddi).
+
+
+#### Checking for outliers
