@@ -5,7 +5,7 @@ layout: default
 rank: 2
 ---
 
-## Data Cleaning & Exploratory Data Analysis (EDA)
+## Splitting Data | Data Cleaning & Exploratory Data Analysis (EDA)
 
 ![EDA](https://user-images.githubusercontent.com/86743951/218554426-a54bcb7d-68b8-4a77-951d-d02ce1a76642.png)
 
@@ -13,7 +13,13 @@ The first step of the data science pipeline is **data cleaning**. This process i
 
 It is important to comprehensively understand the data to be able to gather as much insight as possible. The goal of **exploratory data analysis (EDA)** is to make sense of the data by looking for patterns, spotting anomalies, and checking assumptions through summary statistics and visualizations ([towardsdatascience](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)). There is a lot of overlap between the processes of data cleaning and performing EDA.
 
-After reading in the data, I first used the *.head()* function of the pandas library to look at the first five observations of my dataset. This function is useful for getting a quick glance of whether the dataset encompasses the right type of data.
+I first imported the necessary packages: pandas, numpy, seaborn, and matplotlib.
+
+**Code block of importing packages to be added**
+
+After reading in the data using panda's *.read_csv()'* function, I used the *.head()* function of the pandas library to look at the first five observations of my dataset. This *.head()* function is useful for getting a quick glance of whether the dataset encompasses the right type of data.
+
+![readindata](https://user-images.githubusercontent.com/86743951/219407479-0102dc03-e4f9-48ed-bd6c-def8b2bc72ab.png)
 
 ![head](https://user-images.githubusercontent.com/86743951/214944882-7877bba7-3458-4de6-8bd7-3e98fd4761cb.png)
 
@@ -47,24 +53,34 @@ The original dataframe contained 284807 rows, but after removing the duplicated 
 
 ![shape](https://user-images.githubusercontent.com/86743951/218567242-10d98d9a-3f6c-4c08-8096-ad15dd5ab926.png)
 
+#### Splitting the dataset into train and test data
+At this point, I split the dataset into train and test data. The train dataset will be used to train the model and the test dataset will be used to evaluate the model. I will utilize the train_test_split package imported from sklearn.model_selection to split the train and test data into 75% and 25%, respectively.
+
+![imbalance](https://user-images.githubusercontent.com/86743951/219413476-8e7c00eb-4e7f-454d-a81a-248efaaa2e88.png)
+
+Due to the large imbalance exhibited in the distribution of the target class, I used stratified sampling to ensure that fraud and non-fraud cases both exist in the train and test data. I did this by using the parameter *stratify* in sckikit-learn's train_test_split function. 
+
+![traintestsplit](https://user-images.githubusercontent.com/86743951/219413937-7e8ec37b-d37d-4962-977d-912d723cb555.png) 
+
+We'll then concatenate the x_train and y_train datasets to make correlation to conduct further EDA.
+
+![concat](https://user-images.githubusercontent.com/86743951/219414603-5fe31aff-3dfa-419f-949e-ca159dcb67d9.png)
+
+It is important to do EDA *only* on the training data to keep an unbiased estimate of the model's performance. Using the testing data for EDA runs the risk of engineering features that work well for the testing data thus running the risk of overfitting the model.
 
 ### Making correlation
 
 Correlation is a measure of the relationship between two variables. The correlation coefficient ranges from -1 to +1, where -1 decribes a perfect negative correlation and +1 describes a perfect positive (direct) correlation. 
 
-Below, I've created a bar chart that shows the relationship between the features and the response variable, 'Class', from order of least correlated to most correlated. 
+Below, I've visualized the train dataset correlation in two different ways: a heat map using seaborn, and a bar chart usin gmatplotlib. 
 
-![bar_correlation](https://user-images.githubusercontent.com/86743951/215149758-b0de3e19-a161-4db7-a86e-c51e364813a6.png)
+![traincorr](https://user-images.githubusercontent.com/86743951/219416190-d09c0636-fb0d-47b7-afed-e33aa85e48ea.png)
 
+![heatmap](https://user-images.githubusercontent.com/86743951/219416980-d8b37a16-5bb6-476b-9be6-1d4e053c928c.png)
 
-### Working with imbalanced data
-With the problem that I am working with, it is important to understand **data imbalance** and how to approach this issue. The credit card fraud detection dataset I am working with has a majority of transactions classified as not being fraudulent and *very* few classes as being fraud. 
-
-
-![countplot](https://user-images.githubusercontent.com/86743951/215146610-a57415ca-7c73-443b-a08f-dce59e622284.png)
+![barchart](https://user-images.githubusercontent.com/86743951/219417177-e56b318a-d0d5-4377-9a01-a13ed59c0221.png)
 
 
-Cases that are not fraud (value = 0) make up 99.83% of the dataset while causes that are fraud (value = 1) only make up 0.17%. This is a problem because the objective of many models is to maximize the overall accuracy. However, if one was to measure how good the model is with classification accuracy where it is a percentage of the total correct predictions, they would get a classification score nearing a 100% simply due to the imbalanced nature of the dataset. Steps to minimize bias towards the majority class must be taken and this will be further explored in upcoming posts as I explore various techniques to handle imbalanced data.
 
 
 
