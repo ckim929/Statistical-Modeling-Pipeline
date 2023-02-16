@@ -62,17 +62,17 @@ Due to the large imbalance exhibited in the distribution of the target class, I 
 
 ![traintestsplit](https://user-images.githubusercontent.com/86743951/219413937-7e8ec37b-d37d-4962-977d-912d723cb555.png) 
 
-We'll then concatenate the x_train and y_train datasets to make correlation to conduct further EDA.
+I then concatenated the x_train and y_train datasets to make correlation to conduct further EDA.
 
 ![concat](https://user-images.githubusercontent.com/86743951/219414603-5fe31aff-3dfa-419f-949e-ca159dcb67d9.png)
 
-It is important to do EDA *only* on the training data to keep an unbiased estimate of the model's performance. Using the testing data for EDA runs the risk of engineering features that work well for the testing data thus running the risk of overfitting the model.
+It is important to do EDA *only* on the training data to keep an unbiased estimate of the model's performance. Using the testing data for EDA runs the risk of engineering features that work well for the testing data, resulting in overfitting.
 
 ### Making correlation
 
 Correlation is a measure of the relationship between two variables. The correlation coefficient ranges from -1 to +1, where -1 decribes a perfect negative correlation and +1 describes a perfect positive (direct) correlation. 
 
-Below, I've visualized the train dataset correlation in two different ways: a heat map using seaborn, and a bar chart usin gmatplotlib. 
+Below, I've visualized the train dataset correlation in two different ways: a heat map using seaborn, and a bar chart using matplotlib. 
 
 ![traincorr](https://user-images.githubusercontent.com/86743951/219416190-d09c0636-fb0d-47b7-afed-e33aa85e48ea.png)
 
