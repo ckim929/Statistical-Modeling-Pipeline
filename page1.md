@@ -1,5 +1,5 @@
 --- 
-title: "Problem Statement, Stakeholders, and Data Collection Methods"
+title: "Problem Statement"
 date: 2023-01-20
 layout: default
 rank: 1
