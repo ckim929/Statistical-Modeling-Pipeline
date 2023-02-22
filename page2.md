@@ -1,5 +1,5 @@
 --- 
-title: "Splitting Data | Data Cleaning and Exploratory Data Analysis (EDA)"
+title: "EDA"
 date: 2023-01-25
 layout: default
 rank: 2
