@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-title: Data Science
+title: Statistical Modeling Pipeline
 description: Data Science pipeline using credit card fraud detection dataset
 
 defaults:
