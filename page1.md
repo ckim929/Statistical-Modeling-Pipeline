@@ -28,5 +28,5 @@ The stakeholders include the credit card companies and the credit card users. Cr
 Consumers are also stakeholders in this problem. Consumers want to stay protected in the purchases that they make which can not only cause monetary loss but also emotional distress. It has been found that 83% of Americans own at least one credit card and the average American has 3.8 credit cards ([Zippia](https://www.zippia.com/advice/credit-card-statistics/#:~:text=83%25%20of%20Americans%20own%20at,American%20has%203.8%20credit%20cards.)). 
 
 
-### Data Collection Methods
+### Data Source
 I will be using the dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) which has been collected and analyzed during a research collaboration between Worldline and the [Machine Learning Group](https://mlg.ulb.ac.be/wordpress/). The dataset includes transactions made by credit cards in September 2013 by European cardholders. Due to confidentiality, the dataset contains only numerical input variables (V1, V2,..., V28) as a result of a PCA transformation.
