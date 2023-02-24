@@ -11,6 +11,4 @@ defaults:
       sidebar:
         nav: "docs"
         
-        .silex-runtime .website-min-width {
-    min-width: 0;
 }
