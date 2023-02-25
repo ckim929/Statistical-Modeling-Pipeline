@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 title: Statistical Modeling Pipeline
 description: Data Science pipeline using credit card fraud detection dataset
 
+remote_theme: sighingnow/jekyll-gitbook
+
 defaults:
   # _docs
   - scope:
