@@ -1,5 +1,5 @@
 ---
-title: Problem Statement
+title: EDA
 author: Cathy Kim
 date: 2023-02-25
 category: Jekyll
