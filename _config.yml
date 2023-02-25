@@ -1,18 +1,3 @@
 title: Statistical Modeling Pipeline
-logo: /assets/img/logo.png
 description: Data Science Pipeline using Credit Card Fraud Detection Dataset
 remote_theme: sighingnow/jekyll-gitbook
-
-
-version:          1.0
-gitbook_version:  3.2.3
-
-url:              'https://ckim929.github.io'
-baseurl:          'datascience'
-rss:              RSS
-
-syntax_highlighter_style: colorful
-
-page_width: 800px
-
-
