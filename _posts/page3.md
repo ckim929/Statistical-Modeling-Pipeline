@@ -1,9 +1,11 @@
---- 
-title: "Feature Engineering"
-date: 2023-02-01
-layout: default
-rank: 3
 ---
+title: Problem Statement
+author: Cathy Kim
+date: 2023-02-25
+category: Jekyll
+layout: post
+---
+
 ## Feature Engineering
 
 What is **feature engineering** and why is it important?
