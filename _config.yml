@@ -11,6 +11,8 @@ url:              'https://ckim929.github.io'
 baseurl:          'datascience'
 rss:              RSS
 
+syntax_highlighter_style: colorful
+
 page_width: 800px
 
 
