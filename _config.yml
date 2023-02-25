@@ -4,13 +4,3 @@ description: Data Science pipeline using credit card fraud detection dataset
 
 remote_theme: sighingnow/jekyll-gitbook
 
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
-        
-}
