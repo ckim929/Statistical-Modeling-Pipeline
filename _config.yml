@@ -1,37 +1,10 @@
-# Configurations
-title:            Statistical Modeling Pipeline
-author:           Cathy Kim
-email:            cathykim929@gmail.com
-description: >
-  Data Science pipeline using credit card fraud detection dataset
-
-
-url:              'https://ckim929.github.io/datascience/'
-baseurl:          '/jekyll-gitbook'
-rss:              RSS
-
-# bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
-
-# Permalinks
-permalink:        /:categories/:year-:month-:day-:title:output_ext
-
-exclude:
-  - _drafts
-
-collections:
-  pages:
-    output: true
-    permalink: /:collection/:path/
+title: Statistical Modeling Pipeline
+logo: /assets/img/logo.png
+description: Data Science Pipeline using Credit Card Fraud Detection Dataset
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
 
 page_width: 800px
 
-destination:      ./_site
-incremental:      false
-regenerate:       true
-
-plugins:
-  - jekyll-feed
-  - jekyll-readme-index
-  - jemoji
 
