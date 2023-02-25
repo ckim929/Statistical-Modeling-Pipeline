@@ -1,8 +1,9 @@
---- 
-title: "Problem Statement"
-date: 2023-01-20
-layout: default
-rank: 1
+---
+title: Problem Statement
+author: Cathy Kim
+date: 2023-02-25
+category: Jekyll
+layout: post
 ---
 
 ## A Classification Problem: Credit Card Fraud Detection
