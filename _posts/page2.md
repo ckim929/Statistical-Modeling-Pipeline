@@ -1,8 +1,9 @@
---- 
-title: "EDA"
-date: 2023-01-25
-layout: default
-rank: 2
+---
+title: Problem Statement
+author: Cathy Kim
+date: 2023-02-25
+category: Jekyll
+layout: post
 ---
 
 ## Splitting Data | Data Cleaning & Exploratory Data Analysis (EDA)
@@ -79,16 +80,5 @@ Below, I've visualized the train dataset correlation in two different ways: a he
 ![heatmap](https://user-images.githubusercontent.com/86743951/219416980-d8b37a16-5bb6-476b-9be6-1d4e053c928c.png)
 
 ![barchart](https://user-images.githubusercontent.com/86743951/219417177-e56b318a-d0d5-4377-9a01-a13ed59c0221.png)
-
-
-
-
-
-
-
-
-
-
-
 
 
