@@ -5,8 +5,6 @@ email:            cathykim929@gmail.com
 description: >
   Data Science pipeline using credit card fraud detection dataset
 
-version:          1.0
-gitbook_version:  3.2.3
 
 url:              'https://ckim929.github.io/datascience/'
 baseurl:          '/jekyll-gitbook'
