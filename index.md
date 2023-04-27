@@ -7,6 +7,8 @@
 -->
 ###### Cathy Kim
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Data Science** is the field of study that extracts meaningful and actionable insights from data, using knowledge of statistics, mathematics, and programming. The vastly increasing volume of data in the world and the realization of its applications have made data science an incredibly popular field.
 
 **Machine Learning** is an important part of data science that is all about making informed predictions. Machine learning works by supplying data and a model that allows the model to find patterns and make predictions. It is a branch of artificial intelligence, in which systems can perform specific tasks by adapting and learning from previous computations. Fraud detection, online recommendations, and self-driving cars are some of the well-known applications in the world today. 
